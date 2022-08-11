@@ -1,20 +1,27 @@
 body{
     background-color: #b3deff;
-    color:#696969;
+    color:#8673a1;
     margin:0;
     font-family:'Times New Roman', Times, serif;
 }
 .header{
     color:black;
     /* font-weight: bold; */
-    margin-bottom:50px;
+    margin:50px 0;
+    border:0;
+    
 }
 div{
     text-align: center;
 }
 h1{
+    font-size: 72px;
+    margin:0;
+}
+h2{
     font-size: 64px;
-    /* margin:0; */
+    margin:0;
+    border-top:2px solid #8ac8ff;
 }
 a{
     color:black;
@@ -36,9 +43,16 @@ a:active{
     color:blue;
 }
 .footer{
-    margin-top: 150px;
     margin-bottom:50px;
-    background-color:#3392ff;
-    color:#00508a;
+    border:0;
+    border:5px solid #8ac8ff;
+    border-left:0;
+    border-right:0;
+    color:black;
     font-size:32px;
+    background-color: #e6f4ff;
+}
+.feedback{
+    color:blue;
+    padding:0;
 }
